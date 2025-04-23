@@ -14,7 +14,7 @@ public class Introduction extends BaseUITest {
 	@Test(dataProvider = "getData")
 	public void naukriLogin(String username, String pwd) throws InterruptedException {
 
-		System.out.println("Started Now");
+		System.out.println("Started Now First");
 		goTo();
 		performLogin(username,pwd);
 		System.out.println(driver.getTitle());
